@@ -17,7 +17,7 @@ SOLUTION DESIGN:
 
 I think the main issue here was the fact that I had to learn both Dialogflow CX and web frameworks from stratch, ending up dealing with things that were not exactly what I do everyday. In order to finalize it, I would need to spend some more time in understanding web frameworks (Fastapi or Django seem to be the most used ones) and how to exactly connect them to webhooks: I am confident that I could do that relatively fast. Once the script (main.py) for the web framework is correctly implemented and deployed on gcp, everything should be set to work. In fact, the webhook in the agent is already pointing to the cloud function right now. 
 
-The implemented code should look like this: it gets the parameters location_par and date_par from the webhook request json --> it passes them to the openweather api as in 'static_api.py' --> it passes them back into a json response for the webhook -->it shows the temperatures in the final fulfillment of the 'api' page in Dialogflow CX.
+The implemented code should look like this: it gets the parameters location_par and date_par from the webhook request json --> it passes them to the openweather api as in 'static_api.py' --> it passes the temperatures back into a json response for the webhook --> it shows the temperatures in the final fulfillment of the 'api' page in Dialogflow CX.
 
 This being said, I loved working on this bot! I liked very much the idea behind designing the different interactions, parameters and intents. Also, I feel thrilled and eager to do even better in the future, learning web frameworks and their implementations even more. 
 
