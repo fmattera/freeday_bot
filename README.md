@@ -3,6 +3,7 @@
 This is the GitHub repository related to the Freeday case. This is Francesco's work. 
 
 First of all, I granted access to the implemented Dialogflow CX agent to k.ramsodit@freeday.ai. 
+Agent link (access needed): https://dialogflow.cloud.google.com/cx/projects/proj1-357315/locations/us-central1/agents/e07f5302-2eac-48f4-a6ce-fb40283b99d0
 
 
 LEGENDA:
